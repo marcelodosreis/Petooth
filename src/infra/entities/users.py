@@ -14,4 +14,4 @@ class Users(Base):
     id_pet = relationship("Pets")
 
     def __rep__(self):
-        return f"Usr [name={self.name}]"
+        return f"User [name={self.name}]"
