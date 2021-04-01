@@ -1,7 +1,7 @@
 [MASTER]
 
 disable=
-      C0144 # Missing-module-docstring
+    C0114, # missing-module-docstring
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
